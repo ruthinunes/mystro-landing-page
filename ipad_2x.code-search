@@ -1,0 +1,24 @@
+# Query: ipad@2x
+# ContextLines: 1
+
+13 results - 4 files
+
+index.html:
+  240   <picture class="block-showcase__image" data-aos="fade-up-right" data-aos-duration="1500">
+  241:      <source type="image/webp" srcset="Images/ipad.webp 1x, Images/ipad@2x.webp 2x">
+  242:      <source type="image/png" srcset="Images/ipad.png 1x, Images/ipad@2x.png 2x">
+  243:      <img class="feature__image" src="Images/ipad@2x.png" alt="">
+  244   </picture>
+
+.cache/3f/adc303fa870bb7bb7576534e1420dc.json:
+  1: {"id":"Images/ipad@2x.png","dependencies":[{"name":"/Users/pamelarodrigues/Desktop/THE FINAL/package.json","includedInParent":true,"mtime":1638960558214}],"generated":{"js":"module.exports = \"/d890528baba7d73d1d3bd571bca348dc.png\";"},"sourceMaps":null,"error":null,"hash":"c761ade04f4b7c683c7909aaecd39a65","cacheData":{"env":{}}}
+
+.cache/f2/aab2274b500e8dc94dda5dc0d3c7dd.json:
+  1: ⟪ 4485 characters skipped ⟫"},{"name":"./Images/ipad.webp","dynamic":true,"resolved":"/Users/pamelarodrigues/Desktop/THE FINAL/Images/ipad.webp","parent":"/Users/pamelarodrigues/Desktop/THE FINAL/index.html"},{"name":"./Images/ipad@2x.webp","dynamic":true,"resolved":"/Users/pamelarodrigues/Desktop/THE FINAL/Images/ipad@2x.webp","parent":"/Users/pamelarodrigues/Desktop/THE FINAL/index.html"},{"name":"./Images/ipad.png","dynamic":true,"resolved":"/Users/pamelarodrigues/Desktop/THE FINAL/Images/ipad.png","parent":"/Users/pamelarodrigues/Desktop/THE FINAL/index.html"},{"name":"./Images/ipad@2x.png","dynamic":true,"resolved":"/Users/pamelarodrigues/Desktop/THE FINAL/Images/ipad@2x.png","parent":"/Users/pamelarodrigues/Desktop/THE FINAL/index.html"},{"name":"./Images/ipad@2x.pnj","dynamic":true,"resolved":"/Users/pamelarodrigues/Desktop/THE FINAL/Images/ipad@2x.pnj","parent":"/Users/pamelarodrigues/Desktop/THE FINAL/index.html"},{"name":"./Images/testimonial.jpg","dynamic":true,"resolved":"/Users/pamelarodrigues/Desktop/THE FINAL/Images/testimonial.jpg","parent":"/Users/pamelarodrigues/Desktop/THE FINAL/index.html"},{"name":"./js/main.js","dynamic":true,"resolved":"/Users/pamelarodrigues/Desktop/THE FINAL/js/main.js","parent":"/Users/pamelarodrigues/Desktop/THE FINAL/index.html"},{"name":"/Users/pamelarodrigues/Desktop/THE FINAL/package.json","includedInParent":true,"mtime":1638960558214}],"generated":{"html":"<!DOCTYPE html>\n<html lang=\"zxx\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"language\" content=\"en\">\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <meta name=\"description\" content=\"Deploy your websites in less than 60 seconds.\">\n    <meta property=\"og:title\" content=\"Moshify... (appear when share this 
+
+Components/showcase-block.html:
+  6   <picture class="block-showcase__image">
+  7:      <source type="image/webp" srcset="Images/ipad.webp 1x, Images/ipad@2x.webp 2x">
+  8:      <source type="image/png" srcset="Images/ipad.png 1x, Images/ipad@2x.png 2x">
+  9:      <img class="feature__image" src="Images/ipad@2x.png" alt="">
+  10   </picture>
