@@ -1,4 +1,4 @@
-@import "./normalize.css";
+@import "normalize.css";
 :root {
   --color-primary: #2584ff;
   --color-secondary: #00d9ff;
@@ -10,7 +10,9 @@
   --border-radius: 30px;
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -36,7 +38,9 @@ body {
   color: var(--color-body);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
   line-height: 1.1;
@@ -151,7 +155,7 @@ a {
 }
 
 .list--tick {
-  list-style-image: url(../images/tick.svg);
+  list-style-image: url(../Images/tick.svg);
   padding-left: 3rem;
   color: var(--color-headings);
 }
@@ -324,7 +328,8 @@ a {
   overflow: hidden;
 }
 
-.card__header, .card__body {
+.card__header,
+.card__body {
   padding: 2rem 7%;
 }
 
@@ -386,7 +391,7 @@ a {
 }
 
 .plan--popular .card__header::before {
-  content: url(../images/popular.svg);
+  content: url(../Images/popular.svg);
   width: 40px;
   display: inline-block;
   position: absolute;
@@ -521,7 +526,7 @@ a {
   margin: 0 3rem;
 }
 
-.testimonial__image>.icon-container {
+.testimonial__image > .icon-container {
   position: absolute;
   top: 3rem;
   right: -32px;
@@ -632,7 +637,9 @@ a {
   color: #7b858b;
 }
 
-.block--dark h1, .block--dark h2, .block--dark h3 {
+.block--dark h1,
+.block--dark h2,
+.block--dark h3 {
   color: #fff;
 }
 
@@ -676,12 +683,12 @@ a {
   border-bottom: none;
 }
 
-.nav__item>a {
+.nav__item > a {
   color: #d2d0db;
   transition: color 0.3s;
 }
 
-.nav__item>a:hover {
+.nav__item > a:hover {
   color: #fff;
 }
 
@@ -808,7 +815,7 @@ a {
   .block-showcase__image {
     justify-self: end;
   }
-  .block-showcase__image>img {
+  .block-showcase__image > img {
     width: auto;
     max-width: 700px;
   }
